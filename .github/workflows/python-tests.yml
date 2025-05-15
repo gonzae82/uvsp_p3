@@ -1,10 +1,14 @@
-name: CI - Teste de Carregamento de Dados: Supabase
+name: CI - Teste de Carregamento de Dados Supabase
 
 on:
   push:
-    branches: [ develop, main ]
+    branches:
+      - develop
+      - main
   pull_request:
-    branches: [ develop, main ]
+    branches:
+      - develop
+      - main
 
 jobs:
   test:
@@ -31,5 +35,3 @@ jobs:
 
       - name: ✅ Executar testes
         run: pytest -v tests/
-
-
