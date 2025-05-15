@@ -5,7 +5,7 @@ DRP14,Grupo 010.
 
 ## Acessível em:
 Site:
-https://www.elido.com.br/projetos/uvsp_p3
+https://uvsp-p3.streamlit.app/
 
 Github:
 https://github.com/gonzae82/uvsp_p3
