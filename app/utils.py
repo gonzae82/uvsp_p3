@@ -5,7 +5,6 @@ from datetime import datetime
 import sys
 import os
 
-
 # Adiciona a raiz do projeto ao path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
