@@ -15,12 +15,14 @@ https://github.com/gonzae82/uvsp_p3
 O projeto foi desenvolvido como parte do Projeto Integrador em Computação III na UNIVESP. Ele visa o desenvolvimento de ferramenta para Monitoramento de Temperatura em Datacenter remotamente.
 
 ## Tecnologias utilizadas
+[![CI - Teste de Carregamento de Dados Supabase](https://github.com/gonzae82/uvsp_p3/actions/workflows/python-tests.yml/badge.svg)](https://github.com/gonzae82/uvsp_p3/actions/workflows/python-tests.yml)
 <div>
-   
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="HTML5" width="60" height="60"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="CSS3" width="60" height="60"/>  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>     
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="90" height="80"/>  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>       
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="Supabase" width="60" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" width="60" height="60"/>
   
 </div>
 
