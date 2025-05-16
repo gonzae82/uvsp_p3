@@ -22,17 +22,19 @@ headers = {
 }
 
 # Configurações do Streamlit
-st.set_page_config(page_title="Monitoramento de Sensores")
-st.title("Monitoramento de Sensores")
+st.set_page_config(page_title="Monitoramento de Sensores", page_icon=":thermometer:", layout="centered")
+st.title(":thermometer: Monitoramento de Sensores  ")
+
+st.subheader("Projeto Integrador em Computação III - DRP14 - Grupo 10", divider="orange")
 
 # Botão de atualização
 if st.button("🔄 Atualizar Dados"):
     dados = carregar_dados()
+  
 else:
-    dados = carregar_dados()  # usa cache se TTL não expirou
+    dados = carregar_dados()
 
 st.markdown("<hr/>", unsafe_allow_html=True)
-
 
 # Carrega os dados
 dados = carregar_dados()
@@ -52,7 +54,6 @@ dados_passado = dados[dados['timestamp'] <= uma_hora_atras]
 if not dados_passado.empty:
     # Pega o mais próximo (mais recente antes de uma hora)
     referencia = dados_passado.iloc[-1]
-
     delta_temp = ultimo['temperatura'] - referencia['temperatura']
     delta_umid = ultimo['umidade'] - referencia['umidade']
 else:

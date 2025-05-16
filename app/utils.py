@@ -23,5 +23,5 @@ def carregar_dados():
     # Converte para horário de Brasília (GMT-3 ou -2 dependendo do horário de verão)
     fuso_brasilia = pytz.timezone("America/Sao_Paulo")
     df['timestamp'] = df['timestamp'].dt.tz_convert(fuso_brasilia)
-
+    
     return df
