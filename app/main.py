@@ -29,8 +29,7 @@ st.subheader("Projeto Integrador em Computação III - DRP14 - Grupo 10", divide
 
 # Botão de atualização
 if st.button("🔄 Atualizar Dados"):
-    dados = carregar_dados()
-  
+    dados = carregar_dados()  
 else:
     dados = carregar_dados()
 
@@ -82,10 +81,3 @@ st.dataframe(
                 "umidade": st.column_config.NumberColumn("💧 Umidade (%)"),      
             }               
 )
-
-
-#fig = px.line(dados, x="timestamp", y=["temperatura", "umidade"], markers=True)
-#st.plotly_chart(fig, use_container_width=True)
-
-
-
